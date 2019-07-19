@@ -7,7 +7,7 @@
   flex-direction: row;
   max-width: 300px;
   margin-bottom: 16px;
-  
+
   .message-main-content {
     border-radius: 6px;
     padding: 8px;
@@ -23,8 +23,8 @@
   .message-user {
     height: 25px;
     width: 25px;
-    border-radius: 50%;
-    background-color: #8067c3;
+    border-radius: 5px;
+    background-color: #2d3436;
     align-self: center;
     display: flex;
     align-content: center;
@@ -49,11 +49,11 @@
   justify-content: flex-end;
 
   .message-main-content {
-    background-color: #eef9fc;
+    background-color: #00b894;
+    color: #fff;
   }
 
   .message-user {
     margin-left: 8px;
   }
 }
-
