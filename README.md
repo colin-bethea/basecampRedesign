@@ -1,15 +1,9 @@
-# Devcamp Tutorial
+# Basecamp UI Redesign
 
-We're building a Basecamp clone over at [the Devwalks blog](https://www.devwalks.com/ruby-on-rails-tutorial-lets-build-basecamp-2/) using Ruby on Rails 5.
+A Basecamp (semi)-clone and redesign inspired by [Devwalks](https://www.devwalks.com/ruby-on-rails-tutorial-lets-build-basecamp-1/).
 
-Why not join in?
+This redesign is deployed on Heroku [here]().
 
-# Article Parts
+# Running
 
-* [Part 1: Setting up with static projects](https://www.devwalks.com/ruby-on-rails-tutorial-lets-build-basecamp-1/)
-* [Part 2: Creating new projects with AJAX](https://www.devwalks.com/ruby-on-rails-tutorial-lets-build-basecamp-2/)
-* [Part 3: Error handling and navigating to our new project dashboard](#)
-
-# How to Run
-
-This is simply a Ruby on Rails 5.1 Project. After running `bundle install` in the project's root, simply run `bin/rails server` to start the server. Don't forget to install Ruby and Rails first!
+You will need Rails 5.1 or higher. After running `bundle install` and `rails db:migrate` in the project's root, simply run `rails s` to start the server.
